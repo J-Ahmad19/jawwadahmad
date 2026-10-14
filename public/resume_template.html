@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Jawwad Ahmad - Resume</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+  @page {
+    size: A4;
+    margin: 8mm 13mm;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #111827;
+    background: #ffffff;
+    font-size: 8.6pt;
+    line-height: 1.27;
+    width: 100%;
+    max-width: 184mm;
+    margin: 0 auto;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  a {
+    color: #0055aa;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .name {
+    font-size: 19pt;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+  }
+
+  .contact-bar {
+    font-size: 8.4pt;
+    color: #374151;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .bullet-sep {
+    color: #9ca3af;
+    font-weight: bold;
+    margin: 0 1px;
+  }
+
+  .section-title {
+    font-size: 9.6pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #000000;
+    border-bottom: 1px solid #111827;
+    padding-bottom: 1px;
+    margin-top: 5px;
+    margin-bottom: 3.5px;
+  }
+
+  .item {
+    margin-bottom: 3px;
+  }
+
+  .item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 8.7pt;
+  }
+
+  .item-title {
+    font-weight: 700;
+    color: #111827;
+  }
+
+  .item-location, .item-date {
+    font-weight: 600;
+    font-style: italic;
+    color: #374151;
+    font-size: 8.2pt;
+    text-align: right;
+    white-space: nowrap;
+    padding-left: 8px;
+  }
+
+  .item-sub {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    color: #374151;
+    font-size: 8.3pt;
+    margin-top: 0.5px;
+  }
+
+  .tech-stack {
+    font-style: italic;
+    color: #4b5563;
+    font-size: 8.1pt;
+    margin-bottom: 1.5px;
+  }
+
+  ul {
+    list-style-type: disc;
+    margin-left: 14px;
+    margin-top: 1px;
+  }
+
+  li {
+    margin-bottom: 1px;
+    font-size: 8.3pt;
+    color: #1f2937;
+    line-height: 1.25;
+  }
+
+  li strong {
+    color: #000000;
+    font-weight: 600;
+  }
+
+  .skills-table, .achieve-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 8.3pt;
+  }
+
+  .skills-table td, .achieve-table td {
+    padding: 1px 0;
+    vertical-align: top;
+    line-height: 1.25;
+  }
+
+  .skills-label {
+    font-weight: 700;
+    color: #111827;
+    width: 155px;
+    min-width: 155px;
+    white-space: nowrap;
+    padding-right: 8px;
+  }
+
+  .achieve-label {
+    font-weight: 700;
+    color: #111827;
+    width: 200px;
+    min-width: 200px;
+    white-space: nowrap;
+    padding-right: 8px;
+  }
+
+  .skills-content, .achieve-content {
+    color: #1f2937;
+  }
+
+  .pub-box {
+    margin-bottom: 2px;
+  }
+
+  .arrow-icon {
+    font-size: 7.5pt;
+    margin-left: 2px;
+    color: #0055aa;
+  }
+</style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="name">JAWWAD AHMAD</div>
+    <div class="contact-bar">
+      <span>+91 6204419477</span>
+      <span class="bullet-sep">•</span>
+      <span><a href="mailto:jawwadahmad568@gmail.com">jawwadahmad568@gmail.com</a></span>
+      <span class="bullet-sep">•</span>
+      <span><a href="https://www.linkedin.com/in/jawwad-ahmad-126999312/" target="_blank">LinkedIn</a></span>
+      <span class="bullet-sep">•</span>
+      <span><a href="https://github.com/J-Ahmad19" target="_blank">GitHub</a></span>
+      <span class="bullet-sep">•</span>
+      <span>New Delhi, India</span>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section-title">Education</div>
+  
+  <div class="item">
+    <div class="item-header">
+      <span class="item-title">Jamia Millia Islamia</span>
+      <span class="item-location">New Delhi</span>
+    </div>
+    <div class="item-sub">
+      <span>B.Tech in Computer Science Engineering (Data Science) — Honours in Applied Intelligence</span>
+      <span class="item-date">2024 — Present</span>
+    </div>
+    <div class="item-sub" style="font-style: italic; color: #1f2937;">
+      <span>Overall CGPA: 8.67 &nbsp;|&nbsp; 4th Semester SGPA: 8.80</span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="item" style="margin-top: 2px;">
+    <div class="item-header">
+      <span class="item-title">Senior Secondary (XII), CBSE — Science</span>
+      <span class="item-location">St. Michael's High School, Patna</span>
+    </div>
+    <div class="item-sub">
+      <span>2023</span>
+      <span class="item-date">Percentage: 95.00%</span>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="section-title">Experience</div>
+
+  <div class="item">
+    <div class="item-header">
+      <span class="item-title">
+        <a href="https://drive.google.com/file/d/1UGkPIOdKMHn4SpzaLvmRDxBPFZ3xA4c1/view?usp=sharing" target="_blank">
+          FOSSEE Semester Internship (Extension) — OSDAG Software <span class="arrow-icon">↗</span>
+        </a>
+      </span>
+      <span class="item-date">Feb 2026 — Apr 2026</span>
+    </div>
+    <div class="item-sub" style="margin-bottom: 1.5px;">
+      <span>Indian Institute of Technology (IIT), Bombay</span>
+    </div>
+    <ul>
+      <li>Awarded a merit-based extension to lead the public-release integration of <strong>OsBridgeLCCA</strong>.</li>
+      <li>Improved <strong>computational efficiency</strong>, data validation, and reliability of structural-design software modules.</li>
+    </ul>
+  </div>
+
+  <div class="item" style="margin-top: 3px;">
+    <div class="item-header">
+      <span class="item-title">
+        <a href="https://drive.google.com/file/d/1OTeQEnkwyBy2MQ5MlBo1sYPEp_7gG3PE/view?usp=sharing" target="_blank">
+          FOSSEE Winter Internship — OSDAG Software Domain <span class="arrow-icon">↗</span>
+        </a>
+      </span>
+      <span class="item-date">Dec 2025 — Jan 2026</span>
+    </div>
+    <div class="item-sub" style="margin-bottom: 1.5px;">
+      <span>Indian Institute of Technology (IIT), Bombay</span>
+    </div>
+    <ul>
+      <li>Developed <strong>OsBridgeLCCA</strong> for life-cycle cost modeling and analysis of numerical structural-design data.</li>
+      <li>Automated <strong>2D CAD drawing generation</strong> using ezDXF and built visualization workflows with <strong>Matplotlib and xarray</strong>.</li>
+    </ul>
+  </div>
+
+  <!-- SOFTWARE ENGINEERING PROJECTS -->
+  <div class="section-title">Software Engineering Projects</div>
+
+  <!-- myMachino -->
+  <div class="item">
+    <div class="item-header">
+      <span class="item-title">
+        <a href="https://www.mymachino.com/" target="_blank">
+          <u>myMachino — Construction Equipment Marketplace</u> <span class="arrow-icon">↗</span>
+        </a>
+      </span>
+      <span></span>
+    </div>
+    <div class="tech-stack">Tech Stack: Next.js, TypeScript, PostgreSQL, Drizzle ORM, Zod, Tailwind CSS</div>
+    <ul>
+      <li>Built and deployed a <strong>mobile-first equipment marketplace</strong> connecting customers with construction and commercial equipment service providers.</li>
+      <li>Developed customer requirement workflows capturing <strong>equipment, location, quantity, date, duration, operator requirements, and budget</strong>.</li>
+      <li>Designed an admin-driven <strong>lead management and provider database</strong> with status tracking, equipment availability, search/filtering, and provider assignment.</li>
+      <li>Implemented the core <strong>customer → lead → provider → booking</strong> workflow with structured validation and responsive UI.</li>
+    </ul>
+  </div>
+
+  <!-- LedgerPilot -->
+  <div class="item" style="margin-top: 2.5px;">
+    <div class="item-header">
+      <span class="item-title">
+        <a href="https://drive.google.com/file/d/1wTz3JluzF5_6dXWHo0veBROMaEg67QJC/view?usp=sharing" target="_blank">
+          <u>LedgerPilotAI — AI Finance Controller</u> <span class="arrow-icon">↗</span>
+        </a>
+      </span>
+      <span></span>
+    </div>
+    <div class="tech-stack">Tech Stack: React, TypeScript, Node.js, Express, PostgreSQL, NeonDB, Drizzle ORM</div>
+    <ul>
+      <li>Built a production-oriented <strong>financial reconciliation platform</strong> processing payment and ledger records using exact matching, fuzzy scoring, and AI-assisted matching.</li>
+      <li>Implemented <strong>audit trails, human-in-the-loop review</strong>, and natural-language queries for explainable cash-position analysis.</li>
+    </ul>
+  </div>
+
+  <!-- USBot -->
+  <div class="item" style="margin-top: 2.5px;">
+    <div class="item-header">
+      <span class="item-title">
+        <a href="https://drive.google.com/file/d/1wnVjn6MVgvAIXUG03DSlKGCPtOFjM9-n/view?usp=sharing" target="_blank">
+          <u>USBot — Offline Edge AI & Efficient Inference</u> <span class="arrow-icon">↗</span>
+        </a>
+      </span>
+      <span></span>
+    </div>
+    <div class="tech-stack">Tech Stack: Python, PySide6, Ollama, FastAPI, Vector Stores</div>
+    <ul>
+      <li>Engineered a <strong>privacy-centric offline AI assistant</strong> for local inference targeting latency, bandwidth, and privacy constraints.</li>
+      <li>Optimized local inference pipelines for <strong>model-state management and low-latency interactions</strong> on consumer hardware.</li>
+      <li>Implemented local <strong>RAG</strong> with embeddings and semantic search for on-device document intelligence.</li>
+    </ul>
+  </div>
+
+  <!-- PUBLICATIONS -->
+  <div class="section-title">Publications</div>
+  <div class="pub-box">
+    <div class="item-header">
+      <span class="item-title" style="font-size: 8.6pt;">
+        <a href="https://drive.google.com/file/d/18Cp0gcdrohIS5nkdK-gj4O9Gvvpd_eeD/view?usp=sharing" target="_blank">
+          An Efficient OS-Inspired Retrieval-Centric Approach for Offline LLM Inference on Resource-Constrained Edge Devices <span class="arrow-icon">↗</span>
+        </a>
+      </span>
+      <span style="font-size: 8.2pt; text-align: right; white-space: nowrap; padding-left: 8px;">
+        <a href="https://drive.google.com/file/d/11g1S_UYeKh5OBk94zgQvJIrXoaWeVCVp/view?usp=sharing" target="_blank" style="font-weight: 700; font-style: italic;">
+          Acceptance Letter <span class="arrow-icon">↗</span>
+        </a>
+      </span>
+    </div>
+    <div style="font-style: italic; color: #374151; font-size: 8.2pt; margin-top: 1px;">
+      <strong>Accepted</strong> at the Springer International Conference on Next Generation Communication and Computing (<strong>NGCCOM 2026</strong>); to be published in Springer LNNS (<strong>Scopus Indexed</strong>).
+    </div>
+  </div>
+
+  <!-- TECHNICAL SKILLS -->
+  <div class="section-title">Technical Skills</div>
+  <table class="skills-table">
+    <tr>
+      <td class="skills-label">Languages:</td>
+      <td class="skills-content">Python, C++, Java, JavaScript, TypeScript, SQL</td>
+    </tr>
+    <tr>
+      <td class="skills-label">Software Development:</td>
+      <td class="skills-content">Next.js, React, Node.js, Express, FastAPI, REST APIs, PostgreSQL, Drizzle ORM, Zod, Tailwind CSS</td>
+    </tr>
+    <tr>
+      <td class="skills-label">AI & Machine Learning:</td>
+      <td class="skills-content">RAG, Vector Databases, Local LLM Inference, LangChain, LangGraph, Ollama, PyTorch, Pandas, NumPy, Scikit-learn</td>
+    </tr>
+    <tr>
+      <td class="skills-label">Information Retrieval:</td>
+      <td class="skills-content">Dense Retrieval, BM25, Reciprocal Rank Fusion (RRF), Reranking, ColBERTv2, FAISS, Embeddings, Context Expansion</td>
+    </tr>
+    <tr>
+      <td class="skills-label">Systems & Tools:</td>
+      <td class="skills-content">KV-Cache Optimization, SQL Optimization, Schema Design, Git/GitHub, Docker, Linux, Figma, Streamlit, Matplotlib, NeonDB</td>
+    </tr>
+  </table>
+
+  <!-- ACHIEVEMENTS -->
+  <div class="section-title">Achievements</div>
+  <table class="achieve-table">
+    <tr>
+      <td class="achieve-label">Research Extension:</td>
+      <td class="achieve-content">Awarded a semester extension at IIT Bombay based on technical performance.</td>
+    </tr>
+    <tr>
+      <td class="achieve-label">Odoo Hackathon Finalist (2026):</td>
+      <td class="achieve-content">Ranked <strong>479 out of 25,000+ applicants</strong>.</td>
+    </tr>
+    <tr>
+      <td class="achieve-label">Competitive Programming:</td>
+      <td class="achieve-content">Solved <strong>100+ problems</strong> on LeetCode.</td>
+    </tr>
+  </table>
+
+</body>
+</html>
